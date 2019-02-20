@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="air-unresponsive-touch">
+    <configurations>
+      <configuration name="air-unresponsive-touch" target-platform="Mobile" pure-as="true" main-class="UnresponsiveTouch" output-file="UnresponsiveTouch.swf" output-folder="$MODULE_DIR$/../../potbotics/potbot/bin/production/air-unresponsive-touch">
+        <dependencies target-player="22.0">
+          <sdk name="20.0.0" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/UnresponsiveTouch-app.xml" package-file-name="UnresponsiveTouch" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/UnresponsiveTouch-app.xml" package-file-name="UnresponsiveTouch">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/Default-568h@2x.png" path-in-package="Default-568h@2x.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/Default@2x.png" path-in-package="Default@2x.png" />
+          </files-to-package>
+          <AirSigningOptions keystore-path="$USER_HOME$/cert/max.rozdobudko.p12" provisioning-profile-path="$USER_HOME$/cert/max.rozdobudko.mobileprovision" />
+        </packaging-ios>
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="20.0.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
